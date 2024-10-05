@@ -19,11 +19,13 @@ inquirer
   ])
   .then((answers) => {
     const url = answers.URL;  
+
     console.log(answers)
+
     var qr_svg = qr.image(url)
     qr_svg.pipe(fs.createWriteStream("qr_img1.png"));
     fs.writeFileSync("user_url.txt", url);
-
+    
     console.log("QR code generated and saved as qr_img1.png");
     console.log("URL saved in user_url.txt");
 
