@@ -1,0 +1,16 @@
+{
+  "name": "practicing-ejs",
+  "version": "1.0.0",
+  "description": "i am learning ejs",
+  "main": "index.js",
+  "type": "module",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "sonia",
+  "license": "ISC",
+  "dependencies": {
+    "ejs": "^3.1.10",
+    "express": "^4.21.1"
+  }
+}
